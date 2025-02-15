@@ -34,10 +34,10 @@ qc_g4r_w4bmk8efh9.appendChild(gpt_btn_w4bmk8efh9);
 window.gpt_btn_w4bmk8efh9 = gpt_btn_w4bmk8efh9
 // Function for generating jk code
 window.gen_jk_code_w4bmk8efh9 = function(length) {
-    var code = "";
-    const characters = "ABCDEFGHJKLMNPRTWXY346789";
-    for (var i = 0; i < 25; i++) {
-        code = code + characters.charAt(Math.floor(Math.random() * 25));
-    }
-    return code;
-}
+  let code = "";
+  const characters = "ABCDEFGHJKLMNPRTWXY346789";
+  for (let i = 0; i < length; i++) {
+    code += characters.charAt(Math.floor(Math.random() * characters.length));
+  }
+  return code;
+};
