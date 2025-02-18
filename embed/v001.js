@@ -1,5 +1,5 @@
 // JS code for embedding a GPT Interface
-const gpt_iframe_w4bmk8efh9 = document.createElement('iframe');
+let gpt_iframe_w4bmk8efh9 = document.createElement('iframe');
 // Append the button to the question container
 qc_g4r_w4bmk8efh9.appendChild(gpt_iframe_w4bmk8efh9);
 // Style for the iframe
