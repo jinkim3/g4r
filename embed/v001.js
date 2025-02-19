@@ -1,1 +1,2 @@
-alert(Qualtrics.SurveyEngine.getEmbeddedData("abc"))
+console.log("Embedded Data Value:", Qualtrics.SurveyEngine.getEmbeddedData("abc"));
+alert("Checking Embedded Data: " + Qualtrics.SurveyEngine.getEmbeddedData("abc"));
